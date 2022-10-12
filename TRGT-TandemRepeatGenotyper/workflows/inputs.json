@@ -1,0 +1,8 @@
+{
+  "trgt.repeats": "File",
+  "trgt.ref": "File",
+  "trgt.aligned_bam": "File",
+  "trgt.aligned_bai": "File",
+  "trgt.repeat_id": "String",
+  "trgt.container_registry": "dnastack"
+}
