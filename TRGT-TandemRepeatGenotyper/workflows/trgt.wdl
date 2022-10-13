@@ -72,7 +72,7 @@ workflow trgt {
 			## Workflow inputs
 
 			An \input template file with some defaults predefined can be found [here](https://github.com/DNAstack/PacBio/blob/main/TRGT-TandemRepeatGenotyper/workflows/inputs.json).
-			Some example \input files can be found ["in PacBio's" `trgt` repository"](https://github.com/PacificBiosciences/trgt/tree/main/example).
+			Some example \input files can be found ["in PacBio's `trgt` repository"](https://github.com/PacificBiosciences/trgt/tree/main/example).
 
 			| Input | Description |
 			| :- | :- |
