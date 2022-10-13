@@ -1,6 +1,6 @@
 # Analysis of PacBio SARS-CoV-2 data using the CoSA pipeline
 
-This reposotiry provides a [WDL wrapper](https://github.com/openwdl/wdl/blob/main/versions/1.0/SPEC.md) for running [PacBio's CoSA pipeline](https://github.com/PacificBiosciences/CoSA) to process Pacific Biosciences SARS-CoV-2 long read HiFi data.
+This repository provides a [WDL wrapper](https://github.com/openwdl/wdl/blob/main/versions/1.0/SPEC.md) for running [PacBio's CoSA pipeline](https://github.com/PacificBiosciences/CoSA) to process Pacific Biosciences SARS-CoV-2 long read HiFi data.
 
 The CoSA pipeline produces an assembly and a variants file. This pipeline uses DeepVariant for variant calling, but [other variant callers are available](https://github.com/PacificBiosciences/CoSA/wiki/Variant-calling-using-PacBio-HiFi-CCS-data#4-variant-calling).
 
