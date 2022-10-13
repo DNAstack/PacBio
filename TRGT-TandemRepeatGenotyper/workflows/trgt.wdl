@@ -80,7 +80,7 @@ workflow trgt {
 			| `aligned_bam`, `aligned_bai` | Aligned HiFi reads (BAM) and index (BAI) |
 			| `repeats` | The repeat definition file with reference coordinates and structure of tandem repeats (BED) |
 			| `repeat_id` | ID of the repeat to visualize |
-			| `container_registry` | Registry that hosts \workflow containers. All containers are hosted in [DNAstack's Dockerhub](https://hub.docker.com/u/dnastack) [`dnastack`] |
+			| `container_registry` | Registry that hosts \workflow containers. All containers are hosted in [DNAstack%27's Dockerhub](https://hub.docker.com/u/dnastack) [`dnastack`] |
 
 
 			## Workflow outputs
