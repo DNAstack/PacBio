@@ -66,13 +66,13 @@ workflow trgt {
 
 			This repository contains a [WDL \workflow](https://github.com/openwdl/wdl/blob/main/versions/1.0/SPEC.md) for processing PacBio HiFi data using the [TRGT tool](https://github.com/pacificBiosciences/trgt/). `trgt` profiles sequence composition, mosaicism, and CpG methylation of analyzed repeats.
 
-			Docker images containing the tools used by this \workflow can be explored [in "DNAstack's" image repository](https://github.com/dnastack/bioinformatics-public-docker-images), or [on Dockerhub](https://hub.docker.com/u/dnastack).
+			Docker images containing the tools used by this \workflow can be explored ["in DNAstack's image repository"](https://github.com/dnastack/bioinformatics-public-docker-images), or [on Dockerhub](https://hub.docker.com/u/dnastack).
 
 
 			## Workflow inputs
 
 			An \input template file with some defaults predefined can be found [here](https://github.com/DNAstack/PacBio/blob/main/TRGT-TandemRepeatGenotyper/workflows/inputs.json).
-			Some example \input files can be found [in "PacBio's" `trgt` repository](https://github.com/PacificBiosciences/trgt/tree/main/example).
+			Some example \input files can be found ["in PacBio's" `trgt` repository"](https://github.com/PacificBiosciences/trgt/tree/main/example).
 
 			| Input | Description |
 			| :- | :- |
@@ -80,7 +80,7 @@ workflow trgt {
 			| `aligned_bam`, `aligned_bai` | Aligned HiFi reads (BAM) and index (BAI) |
 			| `repeats` | The repeat definition file with reference coordinates and structure of tandem repeats (BED) |
 			| `repeat_id` | ID of the repeat to visualize |
-			| `container_registry` | Registry that hosts \workflow containers. All containers are hosted in [DNAstack's Dockerhub](https://hub.docker.com/u/dnastack) [`dnastack`] |
+			| `container_registry` | Registry that hosts \workflow containers. All containers are hosted in ["DNAstack's Dockerhub"](https://hub.docker.com/u/dnastack) [`dnastack`] |
 
 
 			## Workflow outputs
