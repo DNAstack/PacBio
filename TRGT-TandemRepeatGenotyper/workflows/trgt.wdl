@@ -87,9 +87,9 @@ workflow trgt {
 
 			| Output | Description |
 			| :- | :- |
-			| `sorted_trgt_vcf`, `sorted_trgt_vcf_index` | Sorted VCF file and index that contains repeat genotypes; output by `trgt` |
-			| `sorted_trgt_bam`, `sorted_trgt_bam_index` | Sorted BAM file and index that contains pieces of HiFi reads that fully span the repeat sequences; output by `trgt` |
-			| `pileup_image` | An SVG file that contains the pileup read image; output by `trvz` |
+			| `sorted_trgt_vcf`, `sorted_trgt_vcf_index` | Sorted VCF file and index that contains repeat genotypes; \output by `trgt` |
+			| `sorted_trgt_bam`, `sorted_trgt_bam_index` | Sorted BAM file and index that contains pieces of HiFi reads that fully span the repeat sequences; \output by `trgt` |
+			| `pileup_image` | An SVG file that contains the pileup read image; \output by `trvz` |
 
 
 			## Running workflows
@@ -107,7 +107,7 @@ workflow trgt {
 			java -jar /path/to/cromwell.jar run /path/to/workflow.wdl -i /path/to/inputs.json
 			```
 
-			Output and execution files will be located in the `cromwell-executions` directory. When the \workflow finishes successfully, it will output JSON (to stdout) specifying the full path to each output file.
+			\Output and execution files will be located in the `cromwell-executions` directory. When the \workflow finishes successfully, it will \output JSON (to stdout) specifying the full path to each \output file.
 
 
 			### Running using miniwdl
@@ -118,7 +118,7 @@ workflow trgt {
 			miniwdl run /path/to/workflow.wdl -i /path/to/inputs.json
 			```
 
-			Output and execution files will be located in a dated directory (e.g. named `20200704_073415_main`). When the \workflow finishes successfully, it will output JSON (to stdout) specifying the full path to each output file.
+			\Output and execution files will be located in a dated directory (e.g. named `20200704_073415_main`). When the \workflow finishes successfully, it will \output JSON (to stdout) specifying the full path to each \output file.
 
 
 			## Future work
