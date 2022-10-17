@@ -1,5 +1,7 @@
 # PacBio TRGT: Tandem Repeat Genotyper implemented in Workflow Description Language (WDL)
 
+![PacBio logo](https://raw.githubusercontent.com/DNAstack/PacBio/main/pacbio-logo-small.png)
+
 This repository contains a [WDL workflow](https://github.com/openwdl/wdl/blob/main/versions/1.0/SPEC.md) for processing PacBio HiFi data using the [TRGT tool](https://github.com/pacificBiosciences/trgt/). `trgt` profiles sequence composition, mosaicism, and CpG methylation of analyzed repeats.
 
 Docker images containing the tools used by this workflow can be explored [in DNAstack's image repository](https://github.com/dnastack/bioinformatics-public-docker-images), or [on Dockerhub](https://hub.docker.com/u/dnastack).
